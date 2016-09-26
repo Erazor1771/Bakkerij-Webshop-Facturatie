@@ -1,0 +1,2808 @@
+/** GENERAL STYLINGS **/
+body, html{
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    background-image: url("../img/bg-texture.png");
+}
+button{
+    border: none;
+}
+a{
+    color: #fed300;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+}
+/** ICONS **/
+.glyphicon{
+
+}
+#icon-cta-homepage{
+    top: 6px;
+}
+/** END ICONS **/
+
+/** END GENERAL STYLINGS **/
+
+/** HEIGHTS **/
+.full-height{
+    height: 100%;
+}
+/** END HEIGHTS **/
+
+.float-left{
+    float: left !important;
+}
+.remove-bullet{
+    list-style: none;
+}
+
+/** EFFECTS **/
+.homepage-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(255, 253, 244, 0.1);
+}
+.custom-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(255, 253, 244, 0.4);
+}
+.dark-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.5);
+}
+.yellow-overlay-header{
+    box-shadow: inset 0px 0px 0 2000px rgba(254,211,0,0.5);
+}
+.product-dark-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.9);
+}
+.orange-overlay-header{
+    box-shadow: inset 0px 0px 0 2000px rgba(243,153,18,0.8);
+}
+.orange-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(243,153,18,0.8);
+}
+.orange-overlay:hover{
+    transition: 1000ms;
+    box-shadow: none;
+}
+.pink-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(199,56,122,0.8);
+}
+.pink-overlay:hover{
+    transition: 1000ms;
+    box-shadow: none;
+}
+.green-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(199,178,0,0.8);
+}
+.green-overlay:hover{
+    transition: 1000ms;
+    box-shadow: none;
+}
+.yellow-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(254,211,0,0.8);
+}
+.yellow-overlay:hover{
+    transition: 1000ms;
+    box-shadow: none;
+}
+.grey-overlay{
+    box-shadow: inset 0px 0px 0 2000px rgba(83,82,77,0.8);
+}
+.grey-overlay:hover{
+    transition: 1000ms;
+    box-shadow: none;
+}
+/** END EFFECTS **/
+
+/** BORDERS **/
+.white-border-left{
+    border-left: 1px solid #FFFFFF;
+}
+.white-border-right{
+    border-right: 1px solid #FFFFFF;
+}
+.white-border-top{
+    border-top: 1px solid #FFFFFF;
+}
+.white-border-bottom{
+    border-bottom: 1px solid #FFFFFF;
+}
+/** END BORDERS **/
+
+/** ALIGNMENTS **/
+.align-right{
+    float:right;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-left{
+    text-align: left;
+}
+/** END ALIGNMENTS **/
+
+/** MARGINS **/
+.no-margin{
+    margin: 0;
+}
+/** END MARGINS **/
+
+/** COLORS **/
+.white{
+    color: #FFFFFF;
+}
+.black{
+    color: #000000;
+}
+.yellow{
+    color: yellow;
+}
+.yellow-background{
+    background-color: rgba(255, 255, 0, 1) !important;
+}
+.yellow-background-hover:hover{
+    background-color: rgba(255, 255, 0, 1) !important;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #000;
+}
+.green-background-hover:hover{
+    background-color: rgba(199, 178, 0, 1) !important;
+    text-shadow: 0px 0px 2px #000;
+    color: #ffffff;
+}
+.grey-background-hover:hover{
+    background-color: rgba(83, 82, 77, 1) !important;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #000;
+}
+.orange-background-hover:hover{
+    background-color: rgba(243, 153, 18, 1) !important;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #000;
+}
+.yellow-border{
+    border: 3px solid rgba(255, 255, 0, 1) !important;
+}
+.orange-border{
+    border: 3px solid rgba(243, 153, 18, 1) !important;
+}
+.green-border{
+    border: 3px solid  rgba(199, 178, 0, 1) !important;
+}
+.grey-border{
+    border: 3px solid rgba(83, 82, 77, 1) !important;
+}
+
+.orange {
+    color: #f39912;
+}
+.orange-background{
+    background-color: rgba(243, 153, 18, 1) !important;
+}
+.green{
+    color: #c7b200;
+}
+.green-background{
+    background-color: rgba(199, 178, 0, 1) !important;
+}
+.grey{
+    color: #53524D;
+}
+.grey-background{
+    background-color: rgba(83, 82, 77, 1) !important;
+}
+.pink-background{
+    background-color: #c7387a !important;
+}
+.pink-background-hover:hover{
+    background-color: #c7387a !important;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #000;
+}
+.white-content{
+    background-color: #FFFFFF;
+    padding: 20px 50px;
+    border: 1px solid #e5e5e5;
+}
+/** END COLORS **/
+
+/** MUST HAVES **/
+.clear{
+    clear: both;
+}
+.no-padding{
+    padding: 0;
+}
+.no-padding-left{
+    padding-left: 0;
+}
+.no-padding-right{
+    padding-right: 0;
+}
+/** END MUST HAVES **/
+
+/** GAPS **/
+.gap-10{
+    margin-top: 10px;
+}
+.gap-30{
+    margin-top:30px;
+}
+/** END OVERLAYS **/
+
+/** HEADINGS **/
+.default-header{
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px 0px 0 2000px rgba(0,0, 0, 0.2);
+}
+.default-header h1{
+    color: #ffffff;
+    font-size: 8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #000000;
+    margin-top: 120px;
+    letter-spacing: 0;
+    font-family: Indie Flower, sans-serif;
+}
+.default-header h2{
+    color: #FED300;
+    text-shadow: 2px 2px 1px #000000;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0;
+    margin: 0;
+    font-family: Indie Flower, sans-serif;
+}
+.nieuws-content h6{
+    padding-left: 0 !important;
+}
+#homepage-header{
+    background-attachment: fixed;
+    background-image: url('../img/header-homepage.jpg');
+    box-shadow: inset 0px 0px 0 2000px rgba(0,0, 0, 0.1);
+    padding-bottom: 80px;
+}
+.news-wrapper{
+    margin-top: 40px;
+}
+#header-homepage{
+    margin-top: 90px;
+    color: #ffffff;
+    font-size: 4rem;
+    text-shadow: 2px 2px 1px #000;
+    letter-spacing: 0px;
+    font-family: Roboto;
+}
+#sub-header-homepage{
+    position: relative;
+    top: 30px;
+    font-size: 2.5rem;
+    font-style: italic;
+    padding: 15px;
+    background-color: #FED300;
+    font-family: "Indie Flower";
+}
+#sub-header-webshop{
+    margin-top: 40px;
+    font-size:6rem;
+    padding: 25px;
+    text-shadow: 0px 0px 5px #000000;
+}
+#header-webshop{
+    background-image: url('../img/header-homepage.jpg');
+    background-size:  cover;
+    background-position: top;
+    height: 200px;
+    box-shadow: 0px 2px 5px 0px #000000;
+    z-index: 5;
+}
+#cta-button-header{
+    margin-top: 60px;
+}
+.white-header{
+    color: #FFFFFF;
+}
+.larger-height-heading{
+    text-shadow: 1px 2px 2px #000;
+    font-size: 82px;
+    padding: 40px 0px;
+}
+.medium-height-heading{
+    font-size: 75px;
+   
+}
+.small-height-heading{
+    font-size: 45px;
+
+}
+#sub-header-nieuws{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 80px;
+    font-size: 6rem;
+    padding: 15px;
+    text-shadow: 0px 0px 5px #000;
+}
+#sub-sub-header-nieuws{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 40px;
+    font-size: 4rem;
+    padding: 15px;
+    color: #fed300;
+    text-shadow: 0px 0px 5px #000;
+}
+/** END HEADINGS **/
+
+/** FONTS **/
+.readable-text{
+    color: #000;
+    line-height: 2em;
+    font-size: 1.5rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px 0px;
+}
+/** END FONTS **/
+
+/** SEPERATORS **/
+.seperator{
+    height: 1px;
+    background-color: #FFF;
+}
+.seperator-default{
+    height: 1px;
+    background-color: #000;
+}
+/** END SEPERATORS **/
+
+/** TYPOGRAPHY **/
+h1,h2,h3,h4,h5,h6{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1{font-size: 3.6rem; letter-spacing: 1px}
+h2{font-size: 3rem;}
+h3{font-size: 2.6rem;}
+h4{font-size: 2rem;}
+h5{}
+p{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 12px;
+}
+
+/** END TYPOGRAPHY **/
+
+/** BUTTONS **/
+.button{
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+
+}
+.button:hover{
+    text-decoration: none;
+}
+.border-white-button{
+    font-size: 18px;
+    font-family: "Bitter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000000;
+    border: 2px solid #000000;
+}
+.border-white-button:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.nav-bar-button{
+    font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem !important;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #FFFFFF !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-color: #c6b200 !important;
+    border: 3px solid #AF9D00 !important;
+}
+.nav-bar-button:hover{
+    background-color: #c6b200 !important;
+    border: 3px solid #AF9D00 !important;
+}
+.nav-cta-button{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    background-color: #c7387a !important;
+    border: 3px solid #b83471 !important;
+}
+.nav-cta-button:hover{
+    background-color: #c7387a !important;
+    border: 3px solid #b83471 !important;
+}
+.cta-button{
+    background-color: #c7387a;
+    color: #FFFFFF;
+    font-size: 2.3rem;
+    font-weight: 500;
+    border-bottom: 7px solid #b73470;
+    position: relative;
+    letter-spacing: 1px;
+    top: 7px;
+    font-family: Roboto;
+    box-shadow: 0px 0px 5px 1px #000;
+}
+.cta-button:hover {
+    background-color: #c70e64;
+    border-bottom: 7px solid #b00c58;
+    color: #FFFFFF;
+}
+.cta-button .glyphicon{
+    font-size: 2.2rem;
+}
+.black-button{
+    background-color: #000000;
+    padding: 5px !important;
+    color: #FFFFFF;
+}
+.black-button:hover{
+    color: #FFFFFF;
+    background-color: #c4cfee;
+}
+#customize-taart-btn{
+    margin-top: 10px;
+}
+/** END BUTTONS **/
+
+/** NAVIGATION **/
+.nav{
+    font-family: "Bitter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+}
+.nav .glyphicon{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.nav>li>a{
+    padding: 4px 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.nav a{
+    color: #000000;
+    background-color: rgba(255,255,255,0.9);
+    font-size: 1.5rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nav li:nth-child(1), .nav li:nth-child(8){
+    border-top: 1px solid #e5e5e5;
+}
+.nav li{
+
+}
+.sidebar-nav-fixed {
+    width: 250px;
+    left: 40px;
+    height: 100%;
+    z-index: 10;
+    box-shadow: 5px 0px 5px 0px #000000;
+    background-image: url("../img/nav-menu-bg.png");
+    background-repeat: repeat;
+}
+.blokjes-left{
+    position: fixed;
+    left:0;
+    top:0;
+    width: 40px;
+    height: 100%;
+    background-image: url("../img/bar-left.jpg");
+    background-repeat: repeat;
+}
+/** END NAVIGATION **/
+
+/** HEADERS **/
+.header-default{
+    height: 800px;
+    background-image: url('../img/header-homepage.jpg');
+    background-size: 100% 100%;
+    background-position: bottom;
+}
+.header-larger-height{
+    height: 650px;
+}
+#header-openingstijden{
+    background-image: url('../img/openingstijden-bg.jpg');
+}
+.header-nieuws{
+background-image: url('../img/news-single-bg.jpg');
+height:400px;
+background-size: cover;
+background-position: center;
+}
+.header-medium-height{
+    height: 200px;
+}
+
+/** NEWS **/
+.news-image{
+    width: 100%;
+    height:230px;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.news-image:hover .news-heading{
+    background-color: transparent !important;
+}
+.news-sub-info{
+    padding: 0px 20px;
+}
+.news-sub-info p{
+    font-style: italic;
+}
+.news-item:hover{
+    cursor: pointer;
+}
+.news-item:hover .news-heading{
+    display: block;
+}
+.block-row{
+    margin-top: 30px;
+}
+.news-heading{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(254,211,0,0.5);
+    position: absolute;
+    bottom: 0;
+    padding: 60px 20px;
+    font-size: 3rem;
+    font-family: Indie Flower, sans-serif;
+    line-height: 4rem;
+    color: #FFF;
+    text-shadow: 2px 2px 5px #000;
+}
+.news-item-yellow .news-heading{
+    background-color: rgba(254,211,0,0.7);
+}
+.news-item-orange .news-heading{
+    background-color: rgba(243,153,18,0.7);
+}
+.news-item-green .news-heading{
+    background-color: rgba(199,178,0,0.7);
+}
+.news-item-grey .news-heading{
+    background-color: rgba(83, 82, 77,0.7);
+}
+.sub-news-item-wrap{
+    background-color: #ffffff;
+}
+#logo{
+    height: 160px;
+    width: 200px !important;
+}
+/** END NEWS **/
+
+/** CONTENT **/
+textarea{
+    height: 150px !important;
+}
+.default-content-wrapper{
+    padding: 50px 0px;
+}
+.form-wrapper{
+    background-image: url('../img/raamsdonk.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form-wrapper input{
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    border-radius: 0;
+    color: #000000;
+    border-bottom: 5px solid #dddddd;
+}
+.form-wrapper textarea{
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    border-radius: 0;
+    color: #000000;
+    border-bottom: 5px solid #dddddd;
+}
+.form-wrapper .btn-contact-formulier{
+    background-color: rgba(199, 14, 100, 1) !important;
+    border-bottom: 5px solid #b70d5c;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+.form-wrapper .btn-contact-formulier:hover{
+    background-color: rgba(199, 14, 100, 1) !important;
+    border-bottom: 5px solid #b70d5c;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+.contact-form-top-wrapper{
+    padding: 0px 15px;
+    color: #000000;
+    background-color: rgba(255,255,255,0.8);
+    margin-bottom: 20px;
+}
+.form-wrapper ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #333;
+}
+.form-wrapper :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #333;
+    opacity:  1;
+}
+.form-wrapper ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #333;
+    opacity:  1;
+}
+.form-wrapper :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #333;
+}
+.over-ons-wrapper .panel{
+    background-color: #ffffff;
+}
+.over-ons-wrapper .panel-default > .panel-heading{
+    background-color: #ffffff;
+}
+.over-ons-wrapper .panel-group p{
+    padding: 10px;
+    margin: 0;
+}
+.waarom-bakkerij-van-der-westen-bg {
+    border-top: 1px solid #e5e5e5;
+}
+#wrapper-waarom-heading{
+    padding-top: 160px;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/wie-zijn-wij.jpg");
+}
+.waarom-icon-content-wrapper{
+    margin-top: 150px;
+    z-index: 2;
+}
+#content-header-homepage{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 5px #000;
+}
+.icon-content {
+    padding: 10px 0px 10px 0px;
+    min-height: 150px;
+}
+.icon-content:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.icon-content .glyphicon{
+    color: #ffffff;
+    font-size: 4rem;
+    text-align: center;
+    padding:0;
+}
+.icon-content h4{
+    position: relative;
+    top: 10px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+.icon-content p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-style: italic;
+    padding: 10px 20px 20px 0px;
+}
+.icon-large{
+    width: 60px;
+    height: 60px;
+}
+.online-taart-samenstellen{
+    background-color: #FFFFFF;
+    padding: 50px 0px 70px 0px;
+}
+.online-taart-samenstellen p{
+    font-size: 3.6rem;
+    padding-top: 20px;
+    color: #000000;
+    display: block;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding-left: 40px;
+    text-align: center;
+}
+#header-homepage-heeft-u-nog-vragen{
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.4);
+    padding: 10px;
+}
+.contact-right{
+    display: inline-block;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0px;
+    background-color: #ffffff;
+    color: #000;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+.contact-right h4{
+    text-align: center;
+    padding-top: 20px;
+}
+.contact-right p{
+    padding: 10px 30px;
+    text-align: center;
+    color: #333;
+}
+.contact-item{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #c7387a;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 10px;
+    border-bottom: 5px solid #ba3472;
+    box-shadow: 0px 0px 5px 1px #000000;
+}
+.contact-item:hover{
+    background-color: #c71b6a;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contact-item .glyphicon{
+    font-size: 2.1rem;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+.heeft-u-nog-vragen-wrapper{
+    height: 600px;
+}
+.heeft-u-nog-vragen-wrapper p{
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.table-content{
+    padding: 24px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.table-content-email{
+    padding: 31px;
+    padding-top: 35px;
+    font-size: 18px;
+}
+#openingstijden-wrapper{
+    padding: 25px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.openingstijd{
+    display: block;
+    padding: 10px 0px;
+    border-top: 1px dashed #333;
+}
+.openingstijd:last-child{
+    border-bottom: 1px dashed #333;
+}
+.openingstijd .left{
+    color: #fed300;
+    font-weight: bold;
+}
+.openingstijd .right{
+    font-weight: bold;
+}
+.openingstijdtext{
+    background-color: rgba(199, 14, 100, 0.5);
+    text-align: center;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 14px;
+}
+.wrapper-filter-zoeken{
+    padding: 50px 10px;
+}
+.filter-zoeken{
+    margin-top: 10px;
+    border: solid 2px #e5e5e5;
+    padding: 5px;
+    text-align: center;
+}
+.input-group .btn{
+    padding: 15px 12px;
+}
+.uitgelicht{
+    background-color: #c7387a;
+    text-align: center;
+    font-family: Bitter, sans-serif;
+    color: #ffffff; 
+    height: 358px;
+    line-height: 358px;
+    font-size: 55px;
+}
+.product{
+    height: 250px;
+    cursor: pointer;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.product-wrapper .product-name{
+    text-align: center;
+    padding: 15px 10px;
+    font-family: Indie Flower;
+    font-size: 3rem;
+}
+.product-background{
+    padding: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 2px #e5e5e5;
+}
+.product-buttons{
+    padding: 10px 10px;
+    background-color: rgba(255,255,255, 0.9);
+}
+.product-buttons .btn-wrappers{
+    position: relative;
+    left: 17%;
+}
+.nav .cta-button{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+}
+.extra-product-info{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.product-prijs{
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+.prijs-left, .prijs-right{
+    padding: 10px 0px;
+}
+.prijs-left{
+    border-right: 1px solid #e5e5e5;
+}
+.product-wrapper{
+    margin-bottom: 30px;
+}
+.product-wrapper .price{
+    background-color: #ffffff;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.product-wrapper .price span{
+    padding-top: 15px;
+    display: block;
+}
+.product-wrapper .price .inner-price{
+    padding-bottom: 15px;
+}
+.product-wrapper .prijs-text{
+
+    padding-bottom: 15px;
+}
+.product-wrapper .price .icons{
+    float: left;
+    left: 12.5%;
+    position: relative;
+    top: 7.5px;
+    padding-bottom: 15px;
+}
+.product p{
+    display: block;
+    float: left;
+    font-family: Bitter, sans-serif;
+    font-size: 12px;
+    padding: 10px 10px;
+    color: #FFFFFF;
+}
+.plus-button{
+    border-radius: 100px;
+    background-color: #c7387a;
+    color: #ffffff;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.plus-button:hover{
+    cursor: pointer;
+}
+.min-button{
+    border-radius: 100px;
+    background-color: #c7387a;
+    color: #ffffff;
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.min-button:hover{
+    cursor: pointer;
+}
+.product-aantal{
+    display: block;
+    float: left;
+    border: 1px solid #e5e5e5;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    margin: 0px 20px;
+    color: #333;
+}
+.product-aantal:hover{
+    cursor: text;
+}
+.opmerking-button{
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(53,63,210, 0.5);
+    font-family: Bitter, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+.opmerking-button:hover{
+    cursor: pointer;
+}
+.alle-producten{
+    background-color: #f39912;
+    text-align: center;
+    font-family: Bitter, sans-serif;
+    color: #ffffff; 
+    padding: 63px 20px;
+    font-size: 55px;
+    cursor: pointer;
+    float: right;
+}
+.alle-producten .glyphicon{
+    font-size: 80px;
+    margin-top: 20px;
+}
+.product-counter{
+    font-size: 24px;
+    color: #333;
+}
+.category-cta{
+    display: block;
+    float: left;
+    text-align: center;
+}
+#specialiteiten{
+    background-image: url('../img/192.jpg');
+}
+#groot-brood{
+    background-image: url('../img/74.jpg');
+}
+#klein-brood{
+    background-image: url('../img/112.jpg');
+}
+#zoete-snacks{
+    background-image: url('../img/168.jpg');
+}
+#hartige-snacks{
+    background-image: url('../img/175.jpg');
+}
+#cake-koeken{
+    background-image: url('../img/232.jpg');
+}
+#vlaaien{
+    background-image: url('../img/300.jpg');
+}
+#bbq-category{
+    background-image: url('../img/257.png');
+    padding: 40px 10px;
+}
+#gebak{
+    background-image: url('../img/313.jpg');
+}
+#taarten{
+    background-image: url('../img/200.jpg');
+}
+#speciale-gelegenheden-category{
+    background-image: url('../img/284.jpg');
+}
+#feestdagen{
+    background-image: url('../img/321.jpg');
+}
+#tip1-header{
+    background-color: #f67312;
+    color: #ffffff;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 70px;
+    font-family: Bitter, sans-serif;
+}
+#tip2-header{
+    background-color: #f0ff00;
+    color: #ffffff;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 70px;
+    font-family: Bitter, sans-serif;
+}
+#tip3-header{
+    background-color: #c8d400;
+    color: #ffffff;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 70px;
+    font-family: Bitter, sans-serif;
+}
+#tip1{
+    background-color: #f39912;
+    color: #000;
+    height: 250px;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 70px;
+    font-family: Bitter, sans-serif;
+}
+#tip2{
+    background-color: #fed300;
+    color: #000;
+    height: 250px;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 70px;
+    font-family: Bitter, sans-serif;
+}
+#tip3{
+    background-color: #c7b200;
+    color: #000;
+    font-size: 25px;
+    height: 250px;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 70px;
+    font-family: Bitter, sans-serif;
+}
+.tip1-text{
+    color: #000;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: Bitter, sans-serif;
+}
+.tip2-text{
+    color: #000;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: Bitter, sans-serif;
+}
+.tip3-text{
+    color: #000;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: Bitter, sans-serif;
+}
+.prijs-show{
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 24px;
+    z-index: 5;
+    font-family: Bitter, sans-serif;
+    font-weight: bold;
+}
+/** CATEGORIES **/
+.category-webshop-item{
+    height: 200px;
+    padding: 80px 10px;
+    text-align: center;
+    background-image: url('../img/news-item-3.jpg');
+    background-size: cover;
+    background-position: center center; 
+    color: #FFFFFF;
+    font-family: Bitter, sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#speciale-gelegenheden-category{
+    padding: 60px 10px;
+}
+/** END CATEGORIES **/
+/** END CONTENT **/
+
+.product-name-layover{
+    position: absolute;
+    z-index: 5;
+    padding: 10px;
+    left: 10%;
+    top: 10%;
+    right: 10%;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    background-color: rgba(255, 162, 0, 0.8);
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+.top-bar-list{
+    height: 100px;
+    background-color: #F39912;
+}
+.top-bar-list h1{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.shopping-cart{
+    padding: 80px 0px;
+}
+.search-product-content{
+    padding: 40px 0px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border: 1px solid #ccc;
+    border-right: 0;
+    letter-spacing: 1px;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.product-in-cart{
+    border: 1px solid #f6f6f6;
+    background-color: #ffffff;
+}
+.product-in-cart-img{
+    width: 200px;
+}
+.product-names-in-cart{
+    padding: 70px 25px;
+}
+.product-in-cart-padding{
+    padding: 90px 0px;
+}
+.product-names-in-cart span{
+    padding: 1px 0px;
+}
+.product-cart-name{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #333;
+    font-size: 2rem;
+}
+.product-cart-price{
+    font-weight: 500;
+    color: #f39912;
+    font-size: 1.4rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.product-cart-quantity{
+    color: #F39912;
+    font-size: 1.2rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.price-inner-cart{
+    font-weight: 500;
+    color: #000;
+    font-size: 1.4rem;
+    font-family: Oswald, sans-serif;
+}
+.product-in-cart .product-buttons{
+   position: absolute;
+    top: 35%;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.delete-button{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100px;
+    margin-right: 30px;
+    background-color: #EFEFEF;
+    color: #999;
+    font-size: 1.6rem;
+}
+.inner-product-quantity-cart{
+    position: absolute;
+    display: block;
+    border-radius: 100px;
+    left: 120px;
+    bottom: 7%;
+    z-index: 5;
+    background-color: #F39912;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 20px 23px;
+}
+/** PRODUCT CONTENT **/
+.content-top-list{
+    padding-bottom: 50px;
+}
+.content-totalprice{
+
+}
+#bestelling-afronden{
+    float: left;
+    padding: 15px;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 2rem;
+}
+#bestelling-afronden .glyphicon {
+    float: right;
+    padding-right: 1%;
+    padding-top: 3px;
+}
+#previous-step-bestelling{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #e5e5e5;
+    border-radius: 100%;
+}
+#previous-step-bestelling:hover{
+    cursor: pointer;
+    background-color: #c7387a;
+}
+#previous-step-bestelling:hover .glyphicon{
+    color: #ffffff;
+}
+#previous-step-bestelling .glyphicon{
+    color: #000;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    line-height: 26px;
+}
+.bestel-keuze h1{
+    text-align: center;
+}
+.bestel-keuze h3{
+    text-align: center;
+}
+.move-to-list{
+    display: none;
+    width: 38px;
+    height: 38px;
+    background-color: #c6b200;
+    border: 3px solid #998700;
+    position: fixed;
+    cursor: pointer;
+    z-index: 10000;
+    color: #ffffff;
+    line-height: 34px;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+}
+.counter-of-products{
+    top:-2px;
+    right: -3px;
+    position: absolute;
+    background-color: #998700;
+    padding: 7px 10px;
+    letter-spacing: 0;
+    font-family: "Roboto", sans-serif;
+}
+.clickMe.animate{
+    transition: all 2.5s ease;
+}
+
+#bestel-keuze-alignment{
+    padding: 20px 0px;
+    border-radius: 15px;
+    border: 1px solid #e5e5e5;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+#bestel-keuze-alignment .cta-button{
+    border-radius: 0;
+    padding: 10px 0px;
+    font-size: 2rem;
+}
+#bestel-keuze-alignment .cta-button .glyphicon{
+    padding-right: 10px;
+}
+.bestel-keuze p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+.bestel-keuze-left{
+    border-right: 1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+.bestel-keuze li:first-child{
+    text-align: center;
+}
+.bestel-keuze li:nth-child(2){
+    padding-top: 15px;
+}
+.cta-btn-keuze{
+    margin-top: 40px;
+}
+.profile-picture{
+    border-radius: 10%;
+    height: 50%;
+}
+.bestel-keuze img{
+    margin-top: 35px;
+}
+.login-keuze input{
+    padding: 10px;
+    text-align: center;
+}
+.login-keuze img{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.login-keuze label{
+    padding: 5px 0px;
+}
+.login-keuze .label-wachtwoord{
+    padding-top: 10px;
+}
+.has-error{
+    color: red;
+    text-align: center;
+}
+.bg-danger{
+    background-color: #e52a36;
+    color: #FFF;
+    padding: 20px 20px;
+}
+#error-register{
+    margin-bottom: 30px;
+}
+/** END PRODUCT CONTENT **/
+
+/** FOOTER **/
+.sub-footer{
+    color: #ffffff;
+    background-color: #191111;
+}
+.sub-footer h3{
+    margin-top: 50px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.sub-footer img{
+    width: 250px;
+    height: 250px;
+}
+.footer{
+    color: #ffffff;
+    padding: 10px 10px;
+    font-size: 11px;
+    background-color: #0f0a0a;
+}
+.vestiging-item{
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 14px;
+}
+/** END FOOTER **/
+
+.webshop-wrapper-overlay{
+    position: absolute;
+    top: 50px;
+    background-color: #ffffff;
+    z-index: 9999;
+    border-radius: 20px;
+    padding: 15px 25px;
+}
+.webshop-wrapper-overlay h3{
+
+}
+.panel-group{
+    margin-bottom: 0;
+}
+.panel-group .panel{
+    border-radius: 0;
+}
+.panel-default{
+    border-color: #e5e5e5;
+}
+.panel{
+    border-bottom: none;
+}
+.accordion-categories{
+    padding-left: 30px;
+}
+.accordion-categories .panel-heading{
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    padding: 0;
+    background-color: #ffffff;
+}
+.accordion-categories a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.accordion-categories .panel-title{
+    width: 100%;
+    height: 100%;
+}
+.active-cat{
+    color: #ffffff !important;
+    text-shadow: 0px 0px 2px #000;
+}
+.accordion-categories .list-group-item{
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.webshop-content{
+    background-image: url("../img/bg-texture.png");
+}
+.wrapper-filter-zoeken .form-control{
+    height: 58px;
+}
+.wrapper-filter-zoeken .btn-default .glyphicon{
+    font-size: 2.1rem;
+}
+.search-product-content .form-control{
+    height: 70px;
+    top: 6px;
+}
+.search-product-content .stylish-input-group .input-group-addon{
+    top: 6px;
+    position: relative;
+}
+.shopping-cart .product-buttons{
+    border: none;
+    top: 75px;
+}
+.login-keuze #bestelling-afronden{
+    margin-left: 20px;
+}
+.register-left{
+    border: none;
+    border-right: 1px solid #e5e5e5;
+}
+.register-right{
+    border: none;
+}
+.vestiging-item{
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 14px;
+}
+.date-time{
+    font-weight: bold;
+    text-align: center;
+}
+.date-label{
+    font-weight: normal;
+    display: block;
+    font-size: 1.4rem;
+}
+.week-before{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    left: 20px;
+    background-image: url('../img/time-left.png');
+    background-position: center;
+    background-size: cover;
+}
+.week-before:hover{
+    cursor: pointer;
+}
+.week-after{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    right: 20px;
+    background-image: url('../img/time-right.png');
+    background-position: center;
+    background-size: cover;
+}
+.week-after:hover{
+    cursor: pointer;
+}
+.step{
+    background-color: #c9302c;
+    border-radius: 100px;
+}
+.step-parent h3{
+    font-size: 1rem !important;
+    text-align: center;
+}
+.order-steps{
+    margin-bottom: 21px;
+}
+.time-box{
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.time-box:hover{
+    cursor: pointer;
+    background-color: #c7387a;
+    color: #FFFFFF;
+}
+#wijzig-adres{
+    margin-top: 20px;
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    background-color: #e5e5e5;
+    color: #000;
+}
+#wijzig-adres:hover{
+    cursor: pointer;
+}
+.betaal-keuze{
+    border: 1px solid #e5e5e5;
+}
+.betaal-keuze radio{
+    position: relative;
+    top: 50%;
+}
+.radio-betaalkeuze{
+    position: relative;
+    top: 45px;
+}
+.radio-betaalkeuze img{
+    position: relative;
+    top: -3px;
+}
+.radio-btn-betalen{
+    margin-right: 20px !important;
+}
+.betaal-keuze-first{
+    border-bottom: none;
+}
+.inner-betaal-keuze h3{
+    text-align: left;
+    padding-bottom: 0 !important;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.inner-betaal-keuze p{
+    padding-top: 0px;
+    text-align: left;
+    font-size: 1.4rem;
+    padding-bottom: 15px;
+}
+#naar-betalen-btn{
+    margin-top: 40px;
+}
+#naar-betalen-btn:hover{
+    cursor: pointer;
+}
+#betalen-btn{
+    margin-top: 40px;
+}
+#betalen-btn:hover{
+    cursor: pointer;
+}
+#boodschappenlijst{
+    margin-top: 30px;
+}
+#boodschappenlijst h3{
+    padding: 0;
+    padding-bottom: 25px;
+}
+#boodschappenlijst .totaalprijs-bestelkeuze{
+    text-align: right;
+}
+.bestelkeuzes-alignment h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.inner-product-quantity-cart-order{
+    bottom: 15%;
+}
+.button-grey{
+    cursor: pointer;
+    background-color: #e5e5e5;
+}
+.button-grey:hover{
+    background-color: #c7387a;
+    color: #ffffff;
+}
+#bestel-keuze-alignment .button-grey{
+    margin-right: 15px;
+}
+.betaal-overzicht-wrapper h3{
+    padding-bottom: 25px;
+}
+.keuze-overzicht-wrapper h3{
+    padding-bottom: 25px;
+}
+.button-2-series{
+    margin-bottom: 10px;
+}
+.info-home-wrapper{
+    margin-bottom: 80px;
+}
+/** Inlog/Register fields **/
+
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+    padding: 10px 16px 10px 20px;
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #2580db;
+}
+/** END Inlog/Register fields **/
+
+/**LOGIN MENU****/
+.inlog-Text{
+    margin-left: -28px;
+}
+.register-text{
+
+    margin-left: 40px;
+}
+
+/*** CheckBox****/
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    content: '';
+    height: 16px;    
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+    content: '';
+    height: 24px;
+    left: -4px;
+    
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+/***END CHECKBOX*****/
+/***LOGIN/REGISTER BUTTON***/
+.btn-huge{
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 400px;
+}
+.inlog-wrapper{
+    margin-bottom: 203px;
+}
+
+/*****NIEUWS-CONTENT*****/
+.nieuws-Wrapper{
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+.nieuws-picture{
+
+    background-image: url('../img/news-picture.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 425px;
+
+}
+/**********CONTACT********/
+.contact-header{
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.contact-header p{
+    font-size: 5em;
+    padding-top: 80px;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Bitter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.contact-nav{
+    margin-top: 143px;
+}
+
+.button-wrapper{
+    margin-top: -39px;
+   background: rgba(199, 57, 121, 0.4);
+
+}
+.btn-outlined {
+    border-radius: 0;
+
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+.btn-outlined.btn-danger {
+    background: none;
+    border: 0;
+    margin-right: 50px;
+ margin-top: 3px;
+ margin-bottom: -6px;
+
+    
+ 
+}
+.btn-outlined.btn-danger:hover,
+.btn-outlined.btn-danger:active {
+ margin-top: 3px;
+    color: #FFF;
+    background: rgb(199,56,122);
+}
+/***Contact images ***/
+#contact-Raamsdonk{
+    height:500px;
+    background-image: url('../img/raamsdonk.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#contact-Raamdonksveer{
+    height:500px;
+    background-image: url('../img/raamsdonksveer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contact-block-raamsdonks{
+    height: 500px;
+    background-color:  rgba(225, 145, 0, 0.7);
+}
+
+.contact-block-raamsdonkveer{
+    height: 500px;
+    background-color:  rgba(225, 176, 0, 0.8);
+}
+.row-margin-top{
+    margin-top: 10px;
+}
+.registreren-content-wrapper{
+    padding-bottom: 100px;
+    display: table-row;
+}
+.registreren-content-wrapper input{
+    padding: 5px;
+}
+.registreren-content-wrapper label{
+    text-align: left;
+}
+.register-margin-top-content{
+    padding: 20px 0px;
+}
+.remove-bestel-keuze-padding{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.help-block{
+    text-align: left !important;
+    color: #F39912;
+}
+.checkbox-checkfactuur{
+    position: relative;
+    top: 20px;
+}
+.bestel-keuze-right{
+    border-left: none;
+}
+.cta-btn-keuze-custom-pad{
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+.factuurcontentshow{
+    display: none;
+}
+/****CONTACT-FORM******/
+
+.formulier-wrapper h3{
+
+margin-bottom: 15px;
+}
+.btn-contact-formulier{
+    background-color: rgba(199, 14, 100,0.8);
+    border-style: none;
+    border-color: none;
+
+}
+
+.btn-contact-formulier:hover{
+    background-color: rgba(199, 14, 100,1);
+    border-style: none;
+    border-color: none; 
+
+}
+.contact-form-input{
+    margin-bottom: 25px;
+}
+.btn-contact-formulier-verzenden{
+    margin-bottom: 15px;
+}
+
+.form-control-text{
+
+    margin-bottom: 15px;
+    border-style: groove;
+   
+}
+.form-control{
+    border-style: groove;
+}
+
+.sub-text{
+    margin-bottom: 50px;
+}
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+    /**********************************webshop Singe Header******************************************/
+   .single-header{
+    background-image: url('../img/uitleg-bg.png');
+   background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.single-header p{
+    font-size: 34px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Bitter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.single-voordeel{
+    border-style: solid;
+    border-color: black;
+  
+
+}
+.containerSingleItem{
+
+     padding-bottom: 10px;
+     padding-top: 10px;
+
+}
+
+.singleContent {
+    padding-top: 10px;
+    border-color: #ccc;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    display: inline-block;
+
+
+}
+.vinkje{
+    background-image: url('../img/icon-check.png');
+   background-size: contain;
+     background-repeat: no-repeat;
+     height:50px;
+     width: auto;
+
+ 
+
+}
+.postNL{
+    background-image: url('../img/icon-postnl.png');
+  background-size: contain;
+     background-repeat: no-repeat;
+     height:50px;
+     width: auto;
+
+ 
+
+}
+.ideaal{
+    background-image: url('../img/icon-ideal.png');
+  background-size: contain;
+     background-repeat: no-repeat;
+     height:50px;
+     width: auto;
+
+ 
+
+}
+.vink-content h4{
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+.vink-content p{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    font-style: italic;
+    padding-top: 5px;
+
+
+}
+/*****single item images******/
+
+#cat-specialiteiten{
+    height:250px;
+    background-image: url('../img/339.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-block-specialiteiten{
+    height: 500px;
+    background-color:  rgba(217, 70, 213, 0.7);
+}
+
+
+#cat-grootBrood{
+    height:250px;
+    background-image: url('../img/58.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-grootBrood{
+    height: 500px;
+    background-color:  rgba(225, 145, 0, 0.7);
+}
+
+
+#cat-kleinBrood{
+    height:250px;
+    background-image: url('../img/106.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-kleinBrood{
+    height: 500px;
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+
+#cat-zoeteSnack{
+    height:250px;
+    background-image: url('../img/152.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-zoeteSnack{
+    height: 500px;
+    background-color:  rgba(225, 145, 0, 0.5);
+}
+
+#cat-hartigeSnack{
+    height:250px;
+    background-image: url('../img/289.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-hartigeSnack{
+    height: 500px;
+    background-color: rgba(255, 128, 0, 0.5);
+
+}
+
+#cat-cake{
+    height:250px;
+    background-image: url('../img/304.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-cake{
+    height: 500px;
+    background-color:  rgba(225, 145, 0, 0.7);
+}
+/*****Single item second row****/
+#cat-vlaaien{
+    height:250px;
+    background-image: url('../img/300.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-block-vlaaien{
+    height: 250px;
+    background-color:  rgba(225, 145, 0, 0.7);
+}
+
+
+#cat-BBQ{
+    height:250px;
+    background-image: url('../img/402.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-BBQ{
+    height: 250px;
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+#cat-gebak{
+    height:250px;
+    background-image: url('../img/313.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-gebak{
+    height: 250px;
+    background-color:  rgba(225, 145, 0, 0.5);
+}
+
+#cat-taarten{
+    height:250px;
+    background-image: url('../img/33.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-taarten{
+    height: 250px;
+    background-color:  rgba(255, 128, 0, 0.7);
+}
+
+#cat-specialG{
+    height:250px;
+    background-image: url('../img/206.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-specialG{
+    height: 250px;
+    background-color: rgba(225, 145, 0, 0.5);
+
+}
+
+#cat-feestdagen{
+    height:250px;
+    background-image: url('../img/311.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.collor-feestdagen{
+    height: 250px;
+    background-color:  rgba(255, 128, 0, 0.7);
+}
+
+.nav-tab-title
+{
+    padding: 10px 30px 0 10px;
+    font-weight:bold;
+}
+/*********************************************/
+
+.panel.with-nav-tabs .panel-heading{
+    padding: 5px 5px 0 5px;
+}
+.panel.with-nav-tabs .nav-tabs{
+    border-bottom: none;
+}
+.panel.with-nav-tabs .nav-justified{
+    margin-bottom: -1px;
+}
+/********************************************************************/
+/*** PANEL DEFAULT ***/
+
+
+.with-nav-tabs.panel-default .nav-tabs > li > a,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: #FF69B4;
+}
+.with-nav-tabs.panel-default .nav-tabs > .open > a,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > .open > a:focus,
+.with-nav-tabs.panel-default .nav-tabs > li > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li > a:focus {
+    color: black;
+    background-color: #ddd;
+    border-color: transparent;
+}
+.with-nav-tabs.panel-default .nav-tabs > li.active > a,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:hover,
+.with-nav-tabs.panel-default .nav-tabs > li.active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border-color: #ddd;
+    border-bottom-color: transparent;
+}
+.SingleItemTab{
+      margin-bottom: 25px;
+
+}
+#testPic{
+
+height:200px;
+    background-image: url('../img/339.png');
+    background-size: cover;
+    background-position: center;
+
+}
+.verticalLine {
+    margin-top: 25px;
+    border: thin solid rgba(0, 0, 0, 0.1);
+}
+.tipHeader1{
+       height:75px;
+    background-color:#F57311;
+
+
+
+}
+.tipHeader2{
+       height:75px;
+    background-color:#EFFF00;
+
+
+
+}
+.tipHeader3{
+       min-height:75px;
+    background-color: #C7D400;
+
+
+
+}
+
+.tipContent1{
+   height:225px;
+    display: inline-block;
+    background-color:   #F49A12;
+
+}
+
+.tipContent2{
+height:225px;
+    display: inline-block;
+    background-color: #FFD300  ;
+
+}
+
+.tipContent3{
+ height:225px;
+    display: inline-block;
+    background-color: #C7B200;
+
+}
+.tips{
+
+    margin-bottom: 50px;
+}
+/********************************************************************/
+
+#overOns{
+    height:500px;
+    background-image: url('../img/wie-zijn-wij.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+.overOnsContent{
+    margin-bottom: 25px;
+}
+.verticalLineOverOns{
+   
+    border: thin solid rgba(236, 143, 0, 0.5);
+}
+/**** test****/
+.colorGrey{
+    background-color: #333333;
+
+}
+.sideLeft{
+    background-color: white;
+     border-top-left-radius: 0.3em;
+     border-bottom-left-radius: 0.3em;
+
+}
+.sideRight{
+      background-color: white;
+      border-top-right-radius: 0.3em;
+     border-bottom-right-radius: 0.3em;
+
+}
+.middle{
+      background-color: white;
+      border-left-style: solid;
+      border-right-style: solid;
+      border-color: #797979;
+      border-width: 1px;
+
+}
+.sideLeft:hover{
+    background-color: #C7387A;
+     border-top-left-radius: 0.3em;
+     border-bottom-left-radius: 0.3em;
+
+
+}
+.sideRight:hover{
+      background-color: #C7387A;
+      border-top-right-radius: 0.3em;
+     border-bottom-right-radius: 0.3em;
+
+}
+.middle:hover{
+      background-color: #C7387A;
+      border-left-style: solid;
+      border-right-style: solid;
+      border-color: #797979;
+      border-width: 1px;
+
+}
+.middle:hover p{
+text-align: center;
+margin-top: 10px;
+color:white;
+font-family: sans-serif;
+font-size: 1.3em;
+
+
+
+}
+.sideLeft:hover p{
+text-align: center;
+margin-top: 10px;
+color:white;
+font-family: sans-serif;
+font-size: 1.3em;
+
+
+
+}
+.sideRight:hover p{
+text-align: center;
+margin-top: 10px;
+color:white;
+font-family: sans-serif;
+font-size: 1.3em;
+
+
+
+}
+.header-medium-large{
+height: 250px;
+}
+.buttonfotoboekwrap p{
+text-align: center;
+margin-top: 10px;
+color:#797979;
+font-family: sans-serif;
+font-size: 1.3em;
+
+ }
+ .fotoboek{
+    height: 25em;
+    background-image: url('../img/339.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ }
+
+
+.collor-block-bestellen{
+    height: 25em;
+    background-color:  rgba(225, 176, 0, 0.8);
+}
+
+/******TEMP*******/
+.fotoboektemp1{
+        height: 25em;
+    background-image: url('../img/33.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboektemp2{
+        height: 25em;
+    background-image: url('../img/192.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboektemp3{
+        height: 25em;
+    background-image: url('../img/200.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboektemp4{
+        height: 25em;
+    background-image: url('../img/300.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.fotoboektemp5{
+        height: 25em;
+    background-image: url('../img/34.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboektemp6{
+        height: 25em;
+    background-image: url('../img/39.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboektemp7{
+        height: 25em;
+    background-image: url('../img/37.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoTekst p{
+
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    font-size: 1.9em;
+    font-family: sans-serif;
+}
+#cta-button-fotoboek{
+    position: relative;
+    
+}
+.bakkerij-van-der-westen-info{
+    background-color: rgba(254,211,0, 0.8);
+    margin-bottom: 100px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.bakkerij-van-der-westen-info p{
+    color: #000000 !important;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+}
+.facebook-bg{
+    background-color: rgba(44,112,172,0.8);
+    margin-bottom: 100px;
+}
+.facebook-bg .border-white-button:hover{
+    background-color: #000000;
+    border: 3px solid #111111;
+    color: #ffffff;
+}
+.facebook-bg .facebook-heading{
+    color: #ffffff;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 3.6rem;
+    text-align: center;
+}
+.facebook-bg p{
+    font-size: 1.5rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+}
+.facebook-bg .border-white-button{
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.fotoboekTekeningentemp1{
+        height: 25em;
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekTekeningentemp2{
+        height: 25em;
+    background-image: url('../img/44.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekTekeningentemp3{
+        height: 25em;
+    background-image: url('../img/45.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekTekeningentemp4{
+        height: 25em;
+    background-image: url('../img/51.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekTekeningentemp5{
+        height: 25em;
+    background-image: url('../img/52.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekTekeningentemp6{
+        height: 25em;
+    background-image: url('../img/370.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekTekeningentemp7{
+        height: 25em;
+    background-image: url('../img/321.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.fotoboekTekeningentemp8{
+        height: 25em;
+    background-image: url('../img/371.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekTekeningenCover{
+        height: 25em;
+    background-image: url('../img/49.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.fotoboekKoekentemp1{
+        height: 25em;
+    background-image: url('../img/134.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekKoekentemp2{
+        height: 25em;
+    background-image: url('../img/135.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekKoekentemp3{
+        height: 25em;
+    background-image: url('../img/136.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekKoekentemp4{
+        height: 25em;
+    background-image: url('../img/138.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekKoekentemp5{
+        height: 25em;
+    background-image: url('../img/139.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekKoekentemp6{
+        height: 25em;
+    background-image: url('../img/141.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekKoekentemp7{
+        height: 25em;
+    background-image: url('../img/145.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.fotoboekKoekentemp8{
+        height: 25em;
+    background-image: url('../img/143.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fotoboekkoekenCover{
+
+     height: 25em;
+    background-image: url('../img/415.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.panel-group p{
+
+    padding: 30px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+    float: left;
+    height: auto;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #333333;
+}
+.panel-heading{
+
+}
+.panel{
+    background-color: rgba(225, 176, 0, 0.6) ;
+}
+.dropdown-menu{
+    top: 0px;
+    left: 90%;
+    background-color: #ffffff !important;
+    padding: 0 !important;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+.dropdown-menu li{
+    border-bottom: 1px solid #e5e5e5;
+}
+.dropdown-menu a:hover{
+    color: #ffffff !important;
+}
+.info-text p{
+
+    padding: 10px;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+
+    float: left;
+
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #333333;
+}
+h6{
+    font-size: 1.8em;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    float: left;
+}
+
+.uitlegPicture{
+
+    background-image: url('../img/uitleg-info.jpg');
+    background-size: cover;
+    width: 400px;
+    height: 425px;
+
+}
+.header-uitleg{
+background-image: url('../img/straw.jpg');
+height:300px;
+background-size: cover;
+background-position: center center;
+}
+
+.broodPicture{
+
+    background-image: url('../img/zonnemaire.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 425px;
+
+}
+
+.header-brood{
+background-image: url('../img/wheat.jpg');
+height:400px;
+background-size: cover;
+background-position: center center;
+}
+
+.tipsPicture{
+
+    background-image: url('../img/tips.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 425px;
+
+}
+
+.header-tips{
+background-image: url('../img/gesnedenBrood.jpg');
+height:400px;
+background-size: cover;
+background-position: center center;
+}
+.bestel-keuze .cta-button{
+    margin-left: 5%;
+}
+.wrapper-content{
+    position: relative;
+    left: 290px;
+    width: 1060px;
+    max-width: 1600px;
+}
+.bestelkeuze-content-wrapper{
+    margin-top: 50px;
+}
+.content-totalprice .prices{
+    padding: 0;
+    height: auto;
+    font-size: 2rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.content-totalprice .prices .right{
+    text-align: right;
+}
+.content-totalprice .prices .left{
+    text-align: left;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}
+.gm-style-iw{
+    text-align: center;
+}
+.gm-style-iw .google-maps-text-item{
+    padding: 5px 0px;
+    font-size: 1.2rem;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+.gm-style-iw h3{
+    font-size: 1.2rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+.gm-style-iw + div {display: none;}
+#google-maps{
+    height: 600px;
+}
+.blur {
+    -webkit-filter: blur(4px)
+}
+.fancybox{
+    height: 250px;
+}
+.thumbnail{
+    margin-bottom: 0;
+}
+.fancybox img{
+    width: 100%;
+    height: 100%;
+}
